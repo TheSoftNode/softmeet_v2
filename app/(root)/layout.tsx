@@ -1,3 +1,4 @@
+import StreamVideoProvider from '@/providers/StreamClientProvider'
 import React, { FC } from 'react'
 
 type Props = {
@@ -7,7 +8,9 @@ type Props = {
 const RootLayout: FC<Props> = ({children}) => {
   return (
     <main>
-        {children}
+        <StreamVideoProvider>
+            {children}
+        </StreamVideoProvider>
     </main>
   )
 }

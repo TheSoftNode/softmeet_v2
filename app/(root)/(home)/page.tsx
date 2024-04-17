@@ -1,3 +1,4 @@
+import MeetingTypeList from "@/components/MeetingTypeList";
 import React from "react";
 
 type Props = {};
@@ -27,7 +28,7 @@ const Home = (props: Props) => {
         </div>
       </div>
 
-      {/* <MeetingTypeList /> */}
+      <MeetingTypeList />
     </section>
   );
 };
