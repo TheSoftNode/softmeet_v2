@@ -64,7 +64,7 @@ const MeetingRoom = () => {
         </div>
       </div>
       {/* video layout and call controls */}
-      <div className="fixed bottom-0 p-4 flex w-full items-center flex-wrap justify-center gap-5 bg-black z-50">
+      <div className="fixed bottom-0 px-8 flex w-full items-center flex-wrap justify-center gap-5 bg-black z-50">
         <CallControls onLeave={() => router.push(`/`)} />
 
         <DropdownMenu>
